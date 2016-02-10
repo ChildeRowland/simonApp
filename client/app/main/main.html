@@ -1,0 +1,34 @@
+<div class="container">
+
+  <div>
+    <h1 ng-bind="ctrl.welcome"></h1>
+  </div>
+
+  <div id="simon-board">
+    <div ng-repeat="obj in ::ctrl.simon.pallet">
+      <div class="button {{ obj.color }}"
+         ng-class="{active: obj.active}"
+           ng-click="ctrl.playerInput(obj)">
+      </div>
+    </div>
+  </div>
+
+  <div class="summary ng-hide"
+       ng-hide="ctrl.player.game">
+    <h3>Game Options</h3>
+    <button ng-click="ctrl.gameCycle()">Start Game</button>
+  </div>
+
+  <div class="summary ng-hide"
+       ng-hide="!ctrl.player.game">
+    <div class="ng-hide"
+         ng-hide="ctrl.player.turn">
+         <p>Simon is playing</p>
+    </div>
+    <div class="ng-hide"
+         ng-hide="!ctrl.player.turn">
+         <p>Your turn</p>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,59 @@
+/****************************** 
+Genral game board 
+******************************/
+
+#simon-board {
+  width: 445px; 
+  margin: 4px; 
+  border-radius: 135px;
+  border: 2px solid #87599E;
+  background: black;
+  float: left;
+}
+
+
+.summary {
+  float: left;
+}
+
+.ng-hide {
+  display: none!important;
+}
+
+
+/****************************** 
+Buttons before and after click 
+******************************/
+
+.button {
+  width:45%; 
+  height:200px; 
+  margin:11px; 
+  border:1.5px solid #87599E;
+  float: left;
+  opacity: 0.6;
+}
+
+.red {
+  background: #ED0E0E;
+  border-radius: 75% 5% 5% 2%;
+}
+
+.blue {
+  background: #1825DB;
+  border-radius: 2% 75% 5% 5%;
+}
+
+.yellow {
+  background: #FFFF00;
+  border-radius: 5% 2% 5% 75%;
+}
+
+.green {
+  background: #00FF00;
+  border-radius: 2% 5% 75% 5%;
+}
+
+.active {
+  opacity: 1.0;
+}
