@@ -4,7 +4,7 @@ This is a workshop to recreate the game 'simon' with AngularJS and bootstrap.
 
 If you'd like to see the deployed version, visit:
 
-[https://cm-simon-exercise.herokuapp.com]
+https://cm-simon-exercise.herokuapp.com
 
 If you'd like to checkout to code, in the command line:
 
@@ -15,8 +15,8 @@ If you'd like to checkout to code, in the command line:
 
 You'll need to have MongoDB and Grunt installed locally:
 
-[https://www.mongodb.org/]
-[http://gruntjs.com/]
+https://www.mongodb.org/
+http://gruntjs.com/
 
 Then, in the command line:
 
