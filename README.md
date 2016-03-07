@@ -15,8 +15,8 @@ If you'd like to checkout to code, in the command line:
 
 You'll need to have MongoDB and Grunt installed locally:
 
-https://www.mongodb.org/
-http://gruntjs.com/
+- https://www.mongodb.org/ 
+- http://gruntjs.com/
 
 Then, in the command line:
 
