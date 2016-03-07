@@ -1,4 +1,4 @@
-Simon Exercise
+# Simon Exercise
 
 This is a workshop to recreate the game 'simon' with AngularJS and bootstrap.
 
@@ -8,10 +8,10 @@ If you'd like to see the deployed version, visit:
 
 If you'd like to checkout to code, in the command line:
 
-	$ git clone https://github.com/ChildeRowland/simonApp
-	$ cd simonApp
-	$ bower install
-	$ npm install
+	`$ git clone https://github.com/ChildeRowland/simonApp`
+	`$ cd simonApp`
+	`$ bower install`
+	`$ npm install`
 
 You'll need to have MongoDB and Grunt installed locally:
 
@@ -20,11 +20,11 @@ You'll need to have MongoDB and Grunt installed locally:
 
 Then, in the command line:
 
-	$ mongod
+	`$ mongod`
 
 In a seperate terminal in the simonApp directory:
 
-	$ grunt serve
+	`$ grunt serve`
 
 This project was generated with the [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 3.2.0.
 
